@@ -20,7 +20,7 @@
             <div class="flex gap-2 md:gap-3">
                 <button class="btn btn-sm md:btn-md rounded-md"><span id="total-hearts" class="font-semibold text-xs md:text-base">0</span><img src="assets/heart.png" class="h-[20px] w-[20px] md:h-[25px] md:w-[25px]" alt=""></button>
                 <button class="btn btn-sm md:btn-md rounded-md"><span id="total-coins" class="font-semibold text-xs md:text-base">100</span><img src="assets/coin.png" class="h-[20px] w-[20px] md:h-[25px] md:w-[25px]" alt=""></button>
-                <button class="btn btn-sm md:btn-md rounded-md bg-[#00A63E] font-semibold text-white text-xs md:text-base"><span id="total-copy">2</span>Copy</button>
+                <button class="btn btn-sm md:btn-md rounded-md bg-[#00A63E] font-semibold text-white text-xs md:text-base"><span id="total-copy">0</span>Copy</button>
             </div>
         </section>
 
@@ -42,18 +42,18 @@
                     <div class="w-[45px] h-[45px] md:w-[50px] md:h-[50px] p-3 bg-red-100 flex justify-center items-center rounded-md">
                         <img src="assets/emergency.png" class="w-[20px] h-[20px] md:w-auto md:h-auto" alt="">
                     </div>
-                    <i id="heart" class="fa-regular fa-heart text-[20px] md:text-[24px]"></i>
+                    <i id="card-heart" class="fa-regular fa-heart text-[20px] md:text-[24px]"></i>
                 </div>
-                <h2 class="card-title text-lg md:text-xl">জরুরি সেবা</h2>
+                <h2 class="card-title text-md">জরুরি সেবা</h2>
                 <p class="card-description text-[#5C5C5C] text-sm md:text-base">National Emergency Service</p>
 
-                <h2 class="card-title text-xl md:text-2xl">999</h2>
+                <h2 class="card-title ph-number text-xl md:text-2xl">999</h2>
                 <div>
                     <button class="btn btn-sm text-[#5C5C5C] rounded-md text-xs md:text-sm">সর্বজনীন</button>
                 </div>
                 <div class="grid grid-cols-2 gap-3 md:gap-5">
-                    <button class="btn btn-sm md:btn-md text-[#5C5C5C] w-full rounded-md text-xs md:text-sm"><i class="fa-regular fa-copy"></i>Copy</button>
-                    <button class="btn btn-sm md:btn-md bg-[#00A63E] text-white w-full rounded-md text-xs md:text-sm"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button id="card-copy" class="btn btn-sm md:btn-md text-[#5C5C5C] w-full rounded-md text-xs md:text-sm"><i class="fa-regular fa-copy"></i>Copy</button>
+                    <button id="card-call" class="btn btn-sm md:btn-md bg-[#00A63E] text-white w-full rounded-md text-xs md:text-sm"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
 
@@ -62,18 +62,18 @@
                     <div class="w-[45px] h-[45px] md:w-[50px] md:h-[50px] p-3 bg-blue-100 flex justify-center items-center rounded-md">
                         <img src="assets/police.png" class="w-[20px] h-[20px] md:w-auto md:h-auto" alt="">
                     </div>
-                    <i id="heart" class="fa-regular fa-heart text-[20px] md:text-[24px]"></i>
+                    <i id="card-heart" class="fa-regular fa-heart text-[20px] md:text-[24px]"></i>
                 </div>
-                <h2 class="card-title text-lg md:text-xl">পুলিশ</h2>
+                <h2 class="card-title text-md">পুলিশ</h2>
                 <p class="card-description text-[#5C5C5C] text-sm md:text-base">Police</p>
 
-                <h2 class="card-title text-xl md:text-2xl">999</h2>
+                <h2 class="card-title ph-number text-xl md:text-2xl">999</h2>
                 <div>
                     <button class="btn btn-sm text-[#5C5C5C] rounded-md text-xs md:text-sm">পুলিশ</button>
                 </div>
                 <div class="grid grid-cols-2 gap-3 md:gap-5">
-                    <button class="btn btn-sm md:btn-md text-[#5C5C5C] w-full rounded-md text-xs md:text-sm"><i class="fa-regular fa-copy"></i>Copy</button>
-                    <button class="btn btn-sm md:btn-md bg-[#00A63E] text-white w-full rounded-md text-xs md:text-sm"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button id="card-copy" class="btn btn-sm md:btn-md text-[#5C5C5C] w-full rounded-md text-xs md:text-sm"><i class="fa-regular fa-copy"></i>Copy</button>
+                    <button id="card-call" class="btn btn-sm md:btn-md bg-[#00A63E] text-white w-full rounded-md text-xs md:text-sm"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
 
@@ -82,18 +82,18 @@
                     <div class="w-[45px] h-[45px] md:w-[50px] md:h-[50px] p-3 bg-red-100 flex justify-center items-center rounded-md">
                         <img src="assets/fire-service.png" class="w-[20px] h-[20px] md:w-auto md:h-auto" alt="">
                     </div>
-                    <i id="heart" class="fa-regular fa-heart text-[20px] md:text-[24px]"></i>
+                    <i id="card-heart" class="fa-regular fa-heart text-[20px] md:text-[24px]"></i>
                 </div>
-                <h2 class="card-title text-lg md:text-xl">ফায়ার সার্ভিস</h2>
+                <h2 class="card-title text-md">ফায়ার সার্ভিস</h2>
                 <p class="card-description text-[#5C5C5C] text-sm md:text-base">Fire Service</p>
 
-                <h2 class="card-title text-xl md:text-2xl">999</h2>
+                <h2 class="card-title ph-number text-xl md:text-2xl">999</h2>
                 <div>
                     <button class="btn btn-sm text-[#5C5C5C] rounded-md text-xs md:text-sm">ফায়ার</button>
                 </div>
                 <div class="grid grid-cols-2 gap-3 md:gap-5">
-                    <button class="btn btn-sm md:btn-md text-[#5C5C5C] w-full rounded-md text-xs md:text-sm"><i class="fa-regular fa-copy"></i>Copy</button>
-                    <button class="btn btn-sm md:btn-md bg-[#00A63E] text-white w-full rounded-md text-xs md:text-sm"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button id="card-copy" class="btn btn-sm md:btn-md text-[#5C5C5C] w-full rounded-md text-xs md:text-sm"><i class="fa-regular fa-copy"></i>Copy</button>
+                    <button id="card-call" class="btn btn-sm md:btn-md bg-[#00A63E] text-white w-full rounded-md text-xs md:text-sm"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
 
@@ -102,18 +102,18 @@
                     <div class="w-[45px] h-[45px] md:w-[50px] md:h-[50px] p-3 bg-red-100 flex justify-center items-center rounded-md">
                         <img src="assets/ambulance.png" class="w-[20px] h-[20px] md:w-auto md:h-auto" alt="">
                     </div>
-                    <i id="heart" class="fa-regular fa-heart text-[20px] md:text-[24px]"></i>
+                    <i id="card-heart" class="fa-regular fa-heart text-[20px] md:text-[24px]"></i>
                 </div>
-                <h2 class="card-title text-lg md:text-xl">অ্যাম্বুলেন্স</h2>
+                <h2 class="card-title text-md">অ্যাম্বুলেন্স</h2>
                 <p class="card-description text-[#5C5C5C] text-sm md:text-base">Ambulance</p>
 
-                <h2 class="card-title text-xl md:text-2xl">999</h2>
+                <h2 class="card-title ph-number text-xl md:text-2xl">999</h2>
                 <div>
                     <button class="btn btn-sm text-[#5C5C5C] rounded-md text-xs md:text-sm">অ্যাম্বুলেন্স</button>
                 </div>
                 <div class="grid grid-cols-2 gap-3 md:gap-5">
-                    <button class="btn btn-sm md:btn-md text-[#5C5C5C] w-full rounded-md text-xs md:text-sm"><i class="fa-regular fa-copy"></i>Copy</button>
-                    <button class="btn btn-sm md:btn-md bg-[#00A63E] text-white w-full rounded-md text-xs md:text-sm"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button id="card-copy" class="btn btn-sm md:btn-md text-[#5C5C5C] w-full rounded-md text-xs md:text-sm"><i class="fa-regular fa-copy"></i>Copy</button>
+                    <button id="card-call" class="btn btn-sm md:btn-md bg-[#00A63E] text-white w-full rounded-md text-xs md:text-sm"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
 
@@ -122,18 +122,18 @@
                     <div class="w-[45px] h-[45px] md:w-[50px] md:h-[50px] p-3 bg-blue-100 flex justify-center items-center rounded-md">
                         <img src="assets/Bangladesh-Railway.png" class="w-[20px] h-[20px] md:w-auto md:h-auto" alt="">
                     </div>
-                    <i id="heart" class="fa-regular fa-heart text-[20px] md:text-[24px]"></i>
+                    <i id="card-heart" class="fa-regular fa-heart text-[20px] md:text-[24px]"></i>
                 </div>
-                <h2 class="card-title text-lg md:text-xl">রেলওয়ে সেবা</h2>
+                <h2 class="card-title text-md">রেলওয়ে সেবা</h2>
                 <p class="card-description text-[#5C5C5C] text-sm md:text-base">Bangladesh Railway</p>
 
-                <h2 class="card-title text-xl md:text-2xl">16263</h2>
+                <h2 class="card-title ph-number text-xl md:text-2xl">16263</h2>
                 <div>
                     <button class="btn btn-sm text-[#5C5C5C] rounded-md text-xs md:text-sm">রেলওয়ে</button>
                 </div>
                 <div class="grid grid-cols-2 gap-3 md:gap-5">
-                    <button class="btn btn-sm md:btn-md text-[#5C5C5C] w-full rounded-md text-xs md:text-sm"><i class="fa-regular fa-copy"></i>Copy</button>
-                    <button class="btn btn-sm md:btn-md bg-[#00A63E] text-white w-full rounded-md text-xs md:text-sm"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button id="card-copy" class="btn btn-sm md:btn-md text-[#5C5C5C] w-full rounded-md text-xs md:text-sm"><i class="fa-regular fa-copy"></i>Copy</button>
+                    <button id="card-call" class="btn btn-sm md:btn-md bg-[#00A63E] text-white w-full rounded-md text-xs md:text-sm"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
 
@@ -142,18 +142,18 @@
                     <div class="w-[45px] h-[45px] md:w-[50px] md:h-[50px] p-3 bg-green-100 flex justify-center items-center rounded-md">
                         <img src="assets/brac.png" class="w-[20px] h-[20px] md:w-auto md:h-auto" alt="">
                     </div>
-                    <i id="heart" class="fa-regular fa-heart text-[20px] md:text-[24px]"></i>
+                    <i id="card-heart" class="fa-regular fa-heart text-[20px] md:text-[24px]"></i>
                 </div>
-                <h2 class="card-title text-lg md:text-xl">ব্র্যাক সেবা</h2>
+                <h2 class="card-title text-md">ব্র্যাক সেবা</h2>
                 <p class="card-description text-[#5C5C5C] text-sm md:text-base">BRAC Services</p>
 
-                <h2 class="card-title text-xl md:text-2xl">16247</h2>
+                <h2 class="card-title ph-number text-xl md:text-2xl">16247</h2>
                 <div>
                     <button class="btn btn-sm text-[#5C5C5C] rounded-md text-xs md:text-sm">ব্র্যাক</button>
                 </div>
                 <div class="grid grid-cols-2 gap-3 md:gap-5">
-                    <button class="btn btn-sm md:btn-md text-[#5C5C5C] w-full rounded-md text-xs md:text-sm"><i class="fa-regular fa-copy"></i>Copy</button>
-                    <button class="btn btn-sm md:btn-md bg-[#00A63E] text-white w-full rounded-md text-xs md:text-sm"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button id="card-copy" class="btn btn-sm md:btn-md text-[#5C5C5C] w-full rounded-md text-xs md:text-sm"><i class="fa-regular fa-copy"></i>Copy</button>
+                    <button id="card-call" class="btn btn-sm md:btn-md bg-[#00A63E] text-white w-full rounded-md text-xs md:text-sm"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
 
@@ -162,18 +162,18 @@
                     <div class="w-[45px] h-[45px] md:w-[50px] md:h-[50px] p-3 bg-purple-100 flex justify-center items-center rounded-md">
                         <img src="assets/heart.png" class="w-[20px] h-[20px] md:w-auto md:h-auto" alt="">
                     </div>
-                    <i id="heart" class="fa-regular fa-heart text-[20px] md:text-[24px]"></i>
+                    <i id="card-heart" class="fa-regular fa-heart text-[20px] md:text-[24px]"></i>
                 </div>
-                <h2 class="card-title text-lg md:text-xl">স্বাস্থ্য সেবা</h2>
+                <h2 class="card-title text-md">স্বাস্থ্য সেবা</h2>
                 <p class="card-description text-[#5C5C5C] text-sm md:text-base">Health Services</p>
 
-                <h2 class="card-title text-xl md:text-2xl">16255</h2>
+                <h2 class="card-title ph-number text-xl md:text-2xl">16255</h2>
                 <div>
                     <button class="btn btn-sm text-[#5C5C5C] rounded-md text-xs md:text-sm">স্বাস্থ্য</button>
                 </div>
                 <div class="grid grid-cols-2 gap-3 md:gap-5">
-                    <button class="btn btn-sm md:btn-md text-[#5C5C5C] w-full rounded-md text-xs md:text-sm"><i class="fa-regular fa-copy"></i>Copy</button>
-                    <button class="btn btn-sm md:btn-md bg-[#00A63E] text-white w-full rounded-md text-xs md:text-sm"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button id="card-copy" class="btn btn-sm md:btn-md text-[#5C5C5C] w-full rounded-md text-xs md:text-sm"><i class="fa-regular fa-copy"></i>Copy</button>
+                    <button id="card-call" class="btn btn-sm md:btn-md bg-[#00A63E] text-white w-full rounded-md text-xs md:text-sm"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
 
@@ -182,18 +182,18 @@
                     <div class="w-[45px] h-[45px] md:w-[50px] md:h-[50px] p-3 bg-blue-100 flex justify-center items-center rounded-md">
                         <img src="assets/police.png" class="w-[20px] h-[20px] md:w-auto md:h-auto" alt="">
                     </div>
-                    <i id="heart" class="fa-regular fa-heart text-[20px] md:text-[24px]"></i>
+                    <i id="card-heart" class="fa-regular fa-heart text-[20px] md:text-[24px]"></i>
                 </div>
-                <h2 class="card-title text-lg md:text-xl">সাইবার অপরাধ</h2>
+                <h2 class="card-title text-md">সাইবার অপরাধ</h2>
                 <p class="card-description text-[#5C5C5C] text-sm md:text-base">Cyber Crime Unit</p>
 
-                <h2 class="card-title text-xl md:text-2xl">9999333</h2>
+                <h2 class="card-title ph-number text-xl md:text-2xl">9999333</h2>
                 <div>
                     <button class="btn btn-sm text-[#5C5C5C] rounded-md text-xs md:text-sm">সাইবার</button>
                 </div>
                 <div class="grid grid-cols-2 gap-3 md:gap-5">
-                    <button class="btn btn-sm md:btn-md text-[#5C5C5C] w-full rounded-md text-xs md:text-sm"><i class="fa-regular fa-copy"></i>Copy</button>
-                    <button class="btn btn-sm md:btn-md bg-[#00A63E] text-white w-full rounded-md text-xs md:text-sm"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button id="card-copy" class="btn btn-sm md:btn-md text-[#5C5C5C] w-full rounded-md text-xs md:text-sm"><i class="fa-regular fa-copy"></i>Copy</button>
+                    <button id="card-call" class="btn btn-sm md:btn-md bg-[#00A63E] text-white w-full rounded-md text-xs md:text-sm"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
 
@@ -202,18 +202,18 @@
                     <div class="w-[45px] h-[45px] md:w-[50px] md:h-[50px] p-3 bg-red-100 flex justify-center items-center rounded-md">
                         <img src="assets/ambulance.png" class="w-[20px] h-[20px] md:w-auto md:h-auto" alt="">
                     </div>
-                    <i id="heart" class="fa-regular fa-heart text-[20px] md:text-[24px]"></i>
+                    <i id="card-heart" class="fa-regular fa-heart text-[20px] md:text-[24px]"></i>
                 </div>
-                <h2 class="card-title text-lg md:text-xl">মেডিকেল জরুরি</h2>
+                <h2 class="card-title text-md">মেডিকেল জরুরি</h2>
                 <p class="card-description text-[#5C5C5C] text-sm md:text-base">Medical Emergency</p>
 
-                <h2 class="card-title text-xl md:text-2xl">199</h2>
+                <h2 class="card-title ph-number text-xl md:text-2xl">199</h2>
                 <div>
                     <button class="btn btn-sm text-[#5C5C5C] rounded-md text-xs md:text-sm">মেডিকেল</button>
                 </div>
                 <div class="grid grid-cols-2 gap-3 md:gap-5">
-                    <button class="btn btn-sm md:btn-md text-[#5C5C5C] w-full rounded-md text-xs md:text-sm"><i class="fa-regular fa-copy"></i>Copy</button>
-                    <button class="btn btn-sm md:btn-md bg-[#00A63E] text-white w-full rounded-md text-xs md:text-sm"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button id="card-copy" class="btn btn-sm md:btn-md text-[#5C5C5C] w-full rounded-md text-xs md:text-sm"><i class="fa-regular fa-copy"></i>Copy</button>
+                    <button id="card-call" class="btn btn-sm md:btn-md bg-[#00A63E] text-white w-full rounded-md text-xs md:text-sm"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
 
@@ -233,7 +233,7 @@
 
             <div id="call-history">
 
-                <div class="bg-gray-100 p-2 md:p-3 mt-3 md:mt-5 rounded-md flex justify-between items-center">
+                <!-- <div class="bg-gray-100 p-2 md:p-3 mt-3 md:mt-5 rounded-md flex justify-between items-center">
                     <div>
                         <p class="text-sm md:text-md font-semibold">জাতীয় জরুরি সেবা</p>
                         <p class="text-sm md:text-md text-[#5C5C5C]">999</p>
@@ -247,7 +247,7 @@
                         <p class="text-sm md:text-md text-[#5C5C5C]">999</p>
                     </div>
                     <p class="text-xs text-[#5C5C5C]">11:36:58 AM</p>
-                </div>
+                </div> -->
 
             </div>
 
@@ -255,6 +255,6 @@
     </main>
     
 
-
+<script src="./script.js"></script>
 </body>
 </html>
