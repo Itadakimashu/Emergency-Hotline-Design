@@ -58,3 +58,8 @@ for(copyBtn of copyBtns){
         document.getElementById('total-copy').innerText++;
     });
 }
+
+clearBtn = document.getElementById('clear-history');
+clearBtn.addEventListener('click', function(){
+    document.getElementById('call-history').innerHTML = "";
+});
